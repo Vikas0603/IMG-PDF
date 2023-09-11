@@ -12,6 +12,10 @@ body{
     height: 100vh;
     background: slategray;
 }
+h1{
+    color: #000;
+    font-size: 50px;
+}
 .logo i{
     font-size: 60px;
     color: red;
@@ -24,7 +28,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #000;
 }
 .main-container{
     display: flex;
@@ -76,4 +79,22 @@ input{
 }
 .upload{
     background-color: red;
+}
+
+@media screen
+    and (max-device-width: 640px){
+    h1{
+        font-size: 20px;
+    }
+    .container{
+        width: 100%;
+        padding: 10px;
+        margin-top: 50px;
+    }
+    button,.upload{
+        width: 400px;
+        font-size: 10px;
+        padding: 10px 20px;
+        margin: 50px 20px 10px 15px;
+    }
 }
