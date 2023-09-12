@@ -54,16 +54,15 @@
 
 
         // download pdf
-
         function pdfDown() {
+            console.log(newImage)
             var doc = new jsPDF();
             var imgWidth = 210; // width of the A4 paper (in mm)
             var imgHeight = (showImg.height * imgWidth) / showImg.width;
 
-            doc.addImage(newImage, 'PNG', 0, 0, imgWidth, imgHeight);
+            doc.addImage(newImage, 0, 0, imgWidth, imgHeight);
             doc.save('ImgToPDF.pdf');
         }
-
     </script>
 </body>
 </html>
