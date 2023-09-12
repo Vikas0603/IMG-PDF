@@ -7,22 +7,20 @@
 body{
     font-family: arial sans-serif;
     font-size: 25px;
-    margin-top: 3rem;
     color: rgb(0, 0, 0);
     height: 100vh;
     background: slategray;
 }
 h1{
     color: #000;
-    font-size: 50px;
-}
-.logo i{
     font-size: 60px;
-    color: red;
+    margin-top: 20px;
+}
+.description{
     display: flex;
     align-items: center;
     justify-content: center;
-    top: 80px;
+    margin-top: -50px;
 }
 .heading{
     display: flex;
@@ -97,4 +95,26 @@ input{
         padding: 10px 20px;
         margin: 50px 20px 10px 15px;
     }
+}
+.information{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+.pdf-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pdf-img img{
+    width: 250px;
+    height: 250px;
+    margin-top: -50px;
+    margin-bottom: -80px;
 }
